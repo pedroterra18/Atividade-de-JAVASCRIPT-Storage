@@ -14,13 +14,13 @@ body {
     display: grid;
     grid-template-rows: auto 1fr;
     height: 100vh;
-    background-color: #ff6868;
+    
 }
 
 header {
     display: grid;
     grid-template-columns: 1fr auto;
-    background-color: #ff6868;
+
     color: white;
     padding: 20px;
     align-items: center;
@@ -31,7 +31,7 @@ header h1 {
 }
 
 button {
-    background-color: #0066cc;
+    background-color: #000000;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -39,9 +39,6 @@ button {
     border-radius: 5px;
 }
 
-button:hover {
-    background-color: #005bb5;
-}
 
 .modal {
     display: none;
@@ -90,7 +87,7 @@ form input {
 }
 
 form button {
-    background-color: #28a745;
+    background-color: black;
     color: white;
     padding: 10px;
     border: none;
@@ -98,9 +95,7 @@ form button {
     border-radius: 5px;
 }
 
-form button:hover {
-    background-color: #218838;
-}
+
 
 section {
     padding: 20px;
